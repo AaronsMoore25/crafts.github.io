@@ -1,0 +1,33 @@
+body {
+    background: #ecf8fd;
+}
+
+#main-header {
+    text-align: center;
+    background: gray;
+    color: #0c343d;
+    padding: 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.headerClass {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#interiorSection{
+    background: gray;
+    margin:5px;
+}
+
+@media only screen and (min-width: 768px){
+    #mainSection {
+        display: flex;
+    }
+
+    #interiorSection {
+        flex: 20%;
+    }
+}
